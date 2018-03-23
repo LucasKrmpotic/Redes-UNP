@@ -1,0 +1,82 @@
+--INTERACCIONES HTTP BASICAS--
+1.a) 1a. ¿Qué versión de HTTP emplea su navegador? 
+http 1.1
+
+1b. ¿Qué versión de HTTP ejecuta el servidor?
+http 1.1
+
+2a. ¿Qué idiomas indica su navegador al servidor que está dispuesto aceptar en la respuesta? 
+es
+
+2b. ¿Qué relación tiene esta información con el lenguaje que emplea en su navegador y sistema operativo?
+---
+
+3a. ¿Cuál es la dirección IP de su ordenador? 
+192.168.88.18
+
+3b. ¿Y del servidor Web al que está accediendo?
+186.168.88.18
+
+4a. ¿Cuál es el código de estado devuelto a su navegador por el servidor? 
+200
+
+4b. ¿Cuál es el significado de ese código de estado?
+Es un codigo numerico que proporciona informacion con respecto al estado de la solicitud HTTP.
+
+5. ¿Cuándo fue modificado por última vez el fichero HTML que el servidor te está devolviendo?
+20 de Abril de 2017
+
+--INTERACCIONES HTTP CONDICIONALES--
+ip del profesor --> 174.138.32.232 
+
+8. Inspeccione los contenidos de la primera petición GET de su navegador hacia el servidor. ¿Observa alguna linea ‘If-Modified-Since’ en la petición GET? Indique el contenido de dicha línea.
+En el primer GET no se encuentra ninguna linea 
+
+9. Analice el contenido de la respuesta del servidor. ¿Contiene dicha respuesta el fichero HTML que se pedía?
+codigo de estado 200 OK (text/html)
+date: 21 de marzo de 2018
+Line-based text data: text/html
+Trae el paquete correspondiente al html de la pagina.
+
+10. Ahora analice el contenido de la segunda petición GET desde su navegador al servidor. ¿Ve alguna línea ‘If-Modified-Since’ en dicha petición? Si es así, ¿qué información aparece a continuación de dicha cabecera?
+If-Modified-Since: Wed, 15 Mar 2017 20:49:17 GMT
+
+11. ¿Cuál es el código de estado HTTP y el mensaje devuelto por el servidor en respuesta a este segundo GET? ¿Devuelve el servidor explícitamente el contenido del fichero? Explique qué ha sucedido
+El codigo de estado es 304 NOT MODIFIED.
+El segundo GET corresponde a la actualizacion de la pagina del navegador.
+No volvio a traer el contenido html correspondiente a la pagina.
+
+--DESCARGAS DE DOCUMENTOS GRANDES--
+
+12. ¿Cuántos mensajes de petición GET han sido enviados por el navegador?
+Realizo una sola peticion GET
+
+13. ¿Cuántos segmentos TCP con datos han sido necesarios para una única respuesta HTTP? 
+Fueron necesarios 15 segmentos.
+[15 Reassembled TCP Segments (17814 bytes): #50(241), #52(1348), #54(1348), #56(1348), #58(1348), #60(1348), #62(1348), #64(1348), #66(1348), #68(1348), #76(1348), #78(1348), #80(1348), #83(1348), #85(49)]
+14 de 1348 y 1 de 49
+
+14. ¿Cuál es el código de estado y el mensaje asociado con la respuesta a la petición GET?
+Codigo de estado 200 OK.
+
+--DOCUMENTOS HTML CON OBJETOS EMPOTRADOS--
+
+15. ¿Cuántos mensajes GET ha enviado el navegador? ¿A qué direcciones se han enviado esos mensajes?
+El navegador envio 3 GET, uno perteneciente al texto en html y los otros dos pertenecientes a los GIF.
+Los mensajes se han enviado de source:192.168.43.87 a destination:174.138.32.232
+
+16. ¿Puede determinar si las imágenes han sido descargadas sucesivamente (se pide una imagen, se descarga y después se pide la otra) o en paralelo (se lanzan las dos descargas de forma simultánea?
+Se descargan de forma paralela. Ya que primero hace los dos GET de los gifs y luego le llega la respuesta.
+
+--AUTENTICACION HTTP--
+
+17. ¿Cuál es el código de respuesta y el mensaje del servidor en respuesta al mensaje GET inicial de su navegador?
+ El mensaje es: 401 Unauthorized 
+ Basic realm="Contenido restringido"
+
+18. Cuando su navegador envía el mensaje HTTP GET por segunda vez, ¿qué nuevo campo se incluye en el mensaje GET?
+La nueva linea es: Authorization: Basic d2lyZXNoYXJrOm5ldHdvcms=\r\n
+                   Credentials: wireshark:network
+
+19. Explique la codificación Base64.
+La codificación Base 64 se basa en el uso de los caracteres US-ASCII (no acentuados) para codificar cualquier tipo de información.
