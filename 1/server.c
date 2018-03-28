@@ -1,16 +1,27 @@
 
-/* PrimerServidorTCP.c
-  Servicio: Las cadenas de texto recibidas de un Cliente son enviadas a la salida estándar.
-  Nota: Por simplicidad del código no se realiza ningún tipo de control de errores. No obstante el servidor es totalmente funcional.
+/* 
+PrimerServidorTCP.c
+Servicio: Las cadenas de texto recibidas de un Cliente son enviadas a la salida estándar.
+Nota: Por simplicidad del código no se realiza ningún tipo de control de errores. No obstante el servidor es totalmente funcional.
 */
+
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
 
 #define PORTNUMBER 12345
+
+int connection_handler(int n, int ns, char* buf){
+    
+    while ((n = recv(ns, buf, sizeof(buf), 0)) > 0)
+        write(1, buf, n);
+    
+    return 1;
+}
 
 int main(void){
     char buf[10];
@@ -26,11 +37,16 @@ int main(void){
     len = sizeof(struct sockaddr_in);
     bind(s, (struct sockaddr *) &direcc, len);
     listen(s, 5);
-    ns = accept(s, (struct sockaddr *) &direcc, &len);
-
-    while ((n = recv(ns, buf, sizeof(buf), 0)) > 0)
-        write(1, buf, n);
-
+    
+    if ((ns = accept(s, (struct sockaddr *) &direcc, &len))==-1) {
+        printf("error en accept()\n");
+        exit(-1);
+    } else {
+        connection_handler(n, ns, buf);
+    }
+    
+    
+    
      close(ns); close(s);
      exit(0);
     
