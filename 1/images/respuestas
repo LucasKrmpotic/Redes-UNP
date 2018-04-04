@@ -15,7 +15,7 @@ es
 192.168.88.18
 
 3b. ¿Y del servidor Web al que está accediendo?
-186.168.88.18 ESTA ESTÁ MAL es la misma que la otra
+186.168.88.18
 
 4a. ¿Cuál es el código de estado devuelto a su navegador por el servidor? 
 200
@@ -80,3 +80,55 @@ La nueva linea es: Authorization: Basic d2lyZXNoYXJrOm5ldHdvcms=\r\n
 
 19. Explique la codificación Base64.
 La codificación Base 64 se basa en el uso de los caracteres US-ASCII (no acentuados) para codificar cualquier tipo de información.
+
+--TELNET AL PUERTO 80--
+
+• Desde un terminal, ejecuta el siguiente comando: 
+		%> telnet <IP DEL PROFESOR> 80
+• Después escribe el siguiente mensaje de petición HTTP: 
+		
+Intenta ahora volver a conectarte y envíale un método erróneo, por ejemplo:
+		JET /index.html HTTP/1.1
+20. ¿Qué mensaje recibes como respuesta?
+
+GET /index.html HTTP/1.1
+Host:localhost
+	
+	Respuesta:
+		HTTP/1.1 200 OK
+		Server: nginx/1.13.9
+		Date: Tue, 27 Mar 2018 22:02:15 GMT
+		Content-Type: text/html
+		Content-Length: 634
+		Last-Modified: Tue, 27 Mar 2018 14:25:39 GMT
+		Connection: keep-alive
+		ETag: "5aba5463-27a"
+		Accept-Ranges: bytes
+
+JET /index.html HTTP/1.1
+Host:localhost
+
+	Respuesta:
+		HTTP/1.1 405 Not Allowed
+		Server: nginx/1.13.9
+		Date: Tue, 27 Mar 2018 22:08:32 GMT
+		Content-Type: text/html
+		Content-Length: 173
+		Connection: keep-alive
+
+
+Intenta ahora solicitar un objeto que no existe, por ejemplo:
+		GET /ittex.html HTTP/1.1
+21. ¿Qué mensaje recibes como respuesta ahora?
+
+GET /ittex.html HTTP/1.1
+Host:localhost
+
+	Respuesta:
+		HTTP/1.1 404 Not Found
+		Server: nginx/1.13.9
+		Date: Tue, 27 Mar 2018 22:14:29 GMT
+		Content-Type: text/html
+		Content-Length: 169
+		Connection: keep-alive
+
