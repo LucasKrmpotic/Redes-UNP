@@ -5,13 +5,6 @@ Servicio: Las cadenas de texto recibidas de un Cliente son enviadas a la salida 
 Nota: Por simplicidad del código no se realiza ningún tipo de control de errores. No obstante el servidor es totalmente funcional.
 */
 
-
-/* 
-PrimerServidorTCP.c
-Servicio: Las cadenas de texto recibidas de un Cliente son enviadas a la salida estándar.
-Nota: Por simplicidad del código no se realiza ningún tipo de control de errores. No obstante el servidor es totalmente funcional.
-*/
-
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
