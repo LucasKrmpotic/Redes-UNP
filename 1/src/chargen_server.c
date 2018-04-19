@@ -15,7 +15,7 @@ Nota: Por simplicidad del código no se realiza ningún tipo de control de error
 #include "chargen.h"
 
 #define PORTNUMBER 12345
-#define CHAR_LEN 74
+#define MAXBUFF 74
 
 int connection_handler(int ns, char* buf){
 
@@ -23,8 +23,8 @@ int connection_handler(int ns, char* buf){
     
     while (1) {
                    
-        strncpy(buf, characters[i++], CHAR_LEN);
-        strcat(buf, "\n");
+        strncpy(buf, characters[i++], MAXBUFF);
+        //strcat(buf, "\n");
         
         if (i > (sizeof(characters)/sizeof(characters[0])) - 1)
             i = 0;
@@ -40,7 +40,8 @@ int connection_handler(int ns, char* buf){
 }
 
 int main(void){
-    char buf[76];
+    
+    char buf[MAXBUFF];
     int s, ns, len;
     struct sockaddr_in direcc;
 
