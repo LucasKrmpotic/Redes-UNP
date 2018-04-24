@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include<arpa/inet.h>
  
-#define HOST "127.0.0.1"
+#define HOST "192.168.2.116"
 #define PORT 12345
 #define MAXBUFF 1024
 
