@@ -23,4 +23,4 @@ docker run --user=root --name=notebook -p < puerto >:8888 < nombreimg >
 
 Es necesario el --user=root porque la imagen base setea por defecto un usuario no privilegiado que no tendría permisos para instalar las dependencias. 
 
-**Nota:** en la salida del docker run se imprime el tocken para acceder a los archivos. 
+**Nota:** en la salida del docker run se imprime el token para acceder a los archivos. 
