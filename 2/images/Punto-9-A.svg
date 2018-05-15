@@ -303,8 +303,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2876931"
-     inkscape:cx="367.82109"
-     inkscape:cy="252.99492"
+     inkscape:cx="403.54389"
+     inkscape:cy="936.38757"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -322,7 +322,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -420,7 +420,7 @@
          y="43.480362"
          x="14.096156"
          sodipodi:role="line"
-         id="tspan120">Seciencia 1001</tspan><tspan
+         id="tspan120">Secuencia 1001</tspan><tspan
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="49.124805"
          x="14.096156"
@@ -448,7 +448,7 @@
          x="13.56699"
          y="64.647026"
          style="font-size:4.23333311px;line-height:50%;stroke-width:0.26458332px"
-         id="tspan6085">Secuencia: 1002</tspan><tspan
+         id="tspan6085">Secuencia: 1001</tspan><tspan
          sodipodi:role="line"
          x="13.56699"
          y="71.702583"
@@ -609,7 +609,7 @@
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="88.988686"
          x="13.56699"
-         sodipodi:role="line">Secuencia: 1203</tspan><tspan
+         sodipodi:role="line">Secuencia: 1201</tspan><tspan
          id="tspan6467"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="96.044243"
@@ -647,7 +647,7 @@
          y="86.519241"
          x="148.5045"
          sodipodi:role="line"
-         id="tspan134">ACK = 1203  </tspan><tspan
+         id="tspan134">ACK = 1201  </tspan><tspan
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="93.574799"
          x="148.5045"
@@ -711,7 +711,7 @@
          x="13.56699"
          y="110.15534"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan340">Secuencia: 1404</tspan><tspan
+         id="tspan340">Secuencia: 1401</tspan><tspan
          sodipodi:role="line"
          x="13.56699"
          y="117.2109"
@@ -744,7 +744,7 @@
          sodipodi:role="line"
          x="148.5045"
          y="133.08588"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 1605  </tspan><tspan
+         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 1601  </tspan><tspan
          id="tspan358"
          sodipodi:role="line"
          x="148.5045"
@@ -790,7 +790,7 @@
          y="170.12758"
          x="148.5045"
          sodipodi:role="line"
-         id="tspan374">ACK = 1605  </tspan><tspan
+         id="tspan374">ACK = 1601  </tspan><tspan
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="177.18314"
          x="148.5045"
@@ -831,7 +831,7 @@
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="147.19701"
          x="13.56699"
-         sodipodi:role="line">Secuencia: 1605</tspan><tspan
+         sodipodi:role="line">Secuencia: 1601</tspan><tspan
          id="tspan392"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="154.25256"
@@ -859,7 +859,7 @@
          x="13.56699"
          y="194.82205"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan406">Secuencia: 1605</tspan><tspan
+         id="tspan406">Secuencia: 1601</tspan><tspan
          sodipodi:role="line"
          x="13.56699"
          y="201.87761"
@@ -925,7 +925,7 @@
          sodipodi:role="line"
          x="148.5045"
          y="207.16928"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 1806  </tspan><tspan
+         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 1801  </tspan><tspan
          id="tspan8162"
          sodipodi:role="line"
          x="148.5045"
@@ -966,7 +966,7 @@
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="226.57208"
          x="13.56699"
-         sodipodi:role="line">Secuencia: 1806</tspan><tspan
+         sodipodi:role="line">Secuencia: 1801</tspan><tspan
          id="tspan8438"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="233.62764"
@@ -1023,7 +1023,7 @@
          y="238.91931"
          x="148.5045"
          sodipodi:role="line"
-         id="tspan9196">ACK = 1806  </tspan><tspan
+         id="tspan9196">ACK = 1802  </tspan><tspan
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="245.97487"
          x="148.5045"
@@ -1063,7 +1063,7 @@
          sodipodi:role="line"
          x="148.5045"
          y="270.66931"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 1806  </tspan><tspan
+         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 1802  </tspan><tspan
          id="tspan9214"
          sodipodi:role="line"
          x="148.5045"
@@ -1092,55 +1092,13 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="13.56699"
-       y="226.57208"
-       id="text9232"><tspan
-         sodipodi:role="line"
-         x="13.56699"
-         y="226.57208"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan9226">Secuencia: 1806</tspan><tspan
-         sodipodi:role="line"
-         x="13.56699"
-         y="233.62764"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan9228">ACK = 5001</tspan><tspan
-         sodipodi:role="line"
-         x="13.56699"
-         y="240.6832"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan9230">Flags = FIN</tspan></text>
-    <text
-       id="text9240"
-       y="226.57208"
-       x="13.56699"
-       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         id="tspan9234"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         y="226.57208"
-         x="13.56699"
-         sodipodi:role="line">Secuencia: 1806</tspan><tspan
-         id="tspan9236"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         y="233.62764"
-         x="13.56699"
-         sodipodi:role="line">ACK = 5001</tspan><tspan
-         id="tspan9238"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         y="240.6832"
-         x="13.56699"
-         sodipodi:role="line">Flags = FIN</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="13.56699"
        y="274.19708"
        id="text9248"><tspan
          sodipodi:role="line"
          x="13.56699"
          y="274.19708"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan9242">Secuencia: 1807</tspan><tspan
+         id="tspan9242">Secuencia: 1802</tspan><tspan
          sodipodi:role="line"
          x="13.56699"
          y="281.25262"
