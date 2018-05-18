@@ -273,8 +273,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2876931"
-     inkscape:cx="529.35027"
-     inkscape:cy="284.05822"
+     inkscape:cx="468.77683"
+     inkscape:cy="346.18482"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -529,7 +529,7 @@
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="95.152809"
          x="7.1297483"
-         sodipodi:role="line">Secuencia: 3003</tspan><tspan
+         sodipodi:role="line">Secuencia: 3002</tspan><tspan
          id="tspan6467"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="102.20837"
@@ -555,7 +555,7 @@
          y="86.519241"
          x="148.5045"
          sodipodi:role="line"
-         id="tspan134">ACK = 3003</tspan><tspan
+         id="tspan134">ACK = 3002</tspan><tspan
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="93.574799"
          x="148.5045"
@@ -596,7 +596,7 @@
          x="9.2521029"
          y="122.65238"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan340">Secuencia: 3203</tspan><tspan
+         id="tspan340">Secuencia: 3202</tspan><tspan
          sodipodi:role="line"
          x="9.2521029"
          y="129.70793"
@@ -630,7 +630,7 @@
          y="151.15471"
          x="149.32637"
          sodipodi:role="line"
-         id="tspan374">ACK = 3003  </tspan><tspan
+         id="tspan374">ACK = 3002  </tspan><tspan
          id="tspan380"
          style="stroke-width:0.26458332px"
          y="158.21027"
@@ -678,7 +678,7 @@
          sodipodi:role="line"
          x="148.5045"
          y="201.57994"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 3403  </tspan><tspan
+         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 3402  </tspan><tspan
          sodipodi:role="line"
          x="148.5045"
          y="208.6355"
@@ -714,7 +714,7 @@
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="226.57208"
          x="13.56699"
-         sodipodi:role="line">Secuencia: 3403</tspan><tspan
+         sodipodi:role="line">Secuencia: 3402</tspan><tspan
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
          y="233.62764"
          x="13.56699"
@@ -796,7 +796,7 @@
          sodipodi:role="line"
          x="148.5045"
          y="263.61377"
-         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 3404  </tspan><tspan
+         style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px">ACK = 3403  </tspan><tspan
          sodipodi:role="line"
          x="148.5045"
          y="270.66931"
@@ -854,7 +854,7 @@
          x="7.1297483"
          y="171.88205"
          style="font-size:4.23333311px;line-height:100%;stroke-width:0.26458332px"
-         id="tspan212">Secuencia: 3003</tspan><tspan
+         id="tspan212">Secuencia: 3002</tspan><tspan
          sodipodi:role="line"
          x="7.1297483"
          y="178.93761"
